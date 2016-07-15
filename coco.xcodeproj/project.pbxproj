@@ -14,7 +14,7 @@
 		AB5D32831D38ACE700002BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5D32811D38ACE700002BB5 /* Main.storyboard */; };
 		AB5D32851D38ACE700002BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5D32841D38ACE700002BB5 /* Assets.xcassets */; };
 		AB5D32881D38ACE700002BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5D32861D38ACE700002BB5 /* LaunchScreen.storyboard */; };
-		AB5D32941D38B08800002BB5 /* CocoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D32931D38B08800002BB5 /* CocoTextField.m */; };
+		ABB6FD271D38B57900518531 /* CocoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB6FD261D38B57900518531 /* CocoTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		AB5D32841D38ACE700002BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5D32871D38ACE700002BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5D32891D38ACE700002BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB5D32921D38B08800002BB5 /* CocoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoTextField.h; sourceTree = "<group>"; };
-		AB5D32931D38B08800002BB5 /* CocoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoTextField.m; sourceTree = "<group>"; };
+		ABB6FD251D38B57900518531 /* CocoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoTextField.h; sourceTree = "<group>"; };
+		ABB6FD261D38B57900518531 /* CocoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,7 @@
 		AB5D32771D38ACE600002BB5 /* coco */ = {
 			isa = PBXGroup;
 			children = (
-				AB5D32921D38B08800002BB5 /* CocoTextField.h */,
-				AB5D32931D38B08800002BB5 /* CocoTextField.m */,
+				ABB6FD241D38B57900518531 /* CocoTF */,
 				AB5D327B1D38ACE600002BB5 /* AppDelegate.h */,
 				AB5D327C1D38ACE600002BB5 /* AppDelegate.m */,
 				AB5D327E1D38ACE700002BB5 /* ViewController.h */,
@@ -98,6 +97,15 @@
 				AB5D32791D38ACE600002BB5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB6FD241D38B57900518531 /* CocoTF */ = {
+			isa = PBXGroup;
+			children = (
+				ABB6FD251D38B57900518531 /* CocoTextField.h */,
+				ABB6FD261D38B57900518531 /* CocoTextField.m */,
+			);
+			path = CocoTF;
 			sourceTree = "<group>";
 		};
 		C9636EA684FD94411BCE8325 /* Frameworks */ = {
@@ -229,10 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5D32941D38B08800002BB5 /* CocoTextField.m in Sources */,
 				AB5D32801D38ACE700002BB5 /* ViewController.m in Sources */,
 				AB5D327D1D38ACE700002BB5 /* AppDelegate.m in Sources */,
 				AB5D327A1D38ACE600002BB5 /* main.m in Sources */,
+				ABB6FD271D38B57900518531 /* CocoTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
